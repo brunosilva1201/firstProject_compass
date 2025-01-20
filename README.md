@@ -69,14 +69,22 @@ OFFLINE;
      ```
    - Substitua `usuario` pelo seu nome de usuário e `ip_da_maquina_remota` pelo IP ou hostname da máquina remota.
 
-## Alterar Fuso Horário
+## Parte 3: Alterar Fuso Horário
 - Utilize o comando
      ```bash
     timedatectl set-timezone America/Sao_Paulo
      ```
     - Altera timezone para fuso horário São Paulo
 
-## Parte 3: Clonar um Projeto do GitHub
+
+## Parte 4: Alterar hostname da EC2
+- Utilize o comando
+     ```bash
+    hostname "descreva um novo hostname"
+     ```
+    - Altera hostname da EC2, necessário reiniciar EC2
+
+## Parte 5: Clonar um Projeto do GitHub
 
 1. **Instalar o Git**:
    - No Ubuntu (WSL), instale o Git:
@@ -96,7 +104,7 @@ OFFLINE;
      ```
    - Substitua `https://github.com/usuario/projeto.git` pela URL do repositório.
 
-## Parte 4: Instalar o Nginx
+## Parte 6: Instalar o Nginx
 
 1. **Instalar o Nginx**:
    - No Ubuntu (WSL), instale o Nginx:
@@ -115,7 +123,7 @@ OFFLINE;
      sudo systemctl status nginx
      ```
 
-## Parte 5: Adicionar uma Linha no Crontab do Ubuntu
+## Parte 7: Adicionar uma Linha no Crontab do Ubuntu
 
 1. **Editar o Crontab**:
    - Abra o crontab para edição:
