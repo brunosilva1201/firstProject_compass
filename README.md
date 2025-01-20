@@ -73,6 +73,7 @@ OFFLINE;
 - Utilize o comando
      ```bash
     timedatectl set-timezone America/Sao_Paulo
+     ```
     - Altera timezone para fuso horário São Paulo
 
 ## Parte 3: Clonar um Projeto do GitHub
