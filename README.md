@@ -1,7 +1,7 @@
 # 🖥️ Atividade do PB da Compass.UOL
 
 <div align="center">
-  <img src="/logo-compass.png" width="350px">
+  <img src="/logo-compass.png" width="250px">
 </div>
 
 ## Tecnologias usadas
@@ -139,5 +139,5 @@ OFFLINE;
    - Salve e feche o editor.
 
 <div align="center">
-  <img src="/logo-compass.png" width="250px" margin-top="80px">
+  <img src="/logo-compass.png" width="150px" margin-top="80px">
 </div>
