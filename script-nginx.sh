@@ -8,9 +8,9 @@ SERVICE_NAME="Nginx"
 if systemctl is-active --quiet nginx; then
     STATUS="ONLINE"
     MESSAGE="O serviço $SERVICE_NAME esta ativo."
-    echo "$TIMESTAMP | $SERVICE_NAME | $STATUS | $MESSAGE" >> /home/ubuntu/estagio_compassuol/active_service.log
+    echo "$TIMESTAMP | $SERVICE_NAME | $STATUS | $MESSAGE" >> /home/ubuntu/firstProject_compass/active_service.log
 else
     STATUS="INATIVO"
     MESSAGE="O serviço $SERVICE_NAME está inativo."
-    echo "$TIMESTAMP | $SERVICE_NAME | $STATUS | $MESSAGE" >> /home/ubuntu/estagio_compassuol/inactive_service.log
+    echo "$TIMESTAMP | $SERVICE_NAME | $STATUS | $MESSAGE" >> /home/ubuntu/firstProject_compass/inactive_service.log
 fi

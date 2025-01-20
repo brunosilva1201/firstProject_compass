@@ -69,6 +69,11 @@ OFFLINE;
      ```
    - Substitua `usuario` pelo seu nome de usuário e `ip_da_maquina_remota` pelo IP ou hostname da máquina remota.
 
+## Alterar Fuso Horário
+- Utilize o comando
+     ```bash
+    timedatectl set-timezone America/Sao_Paulo
+    - Altera timezone para fuso horário São Paulo
 
 ## Parte 3: Clonar um Projeto do GitHub
 
